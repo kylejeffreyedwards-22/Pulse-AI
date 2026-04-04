@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { background: #000; margin: 0; display: flex; align-items: center; justify-content: center; width: 1000px; height: 1000px; }
+  .logo-container { position: relative; width: 600px; height: 600px; }
+  .pulse-line {
+    fill: none;
+    stroke: url(#grad);
+    stroke-width: 25;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .brain-path {
+    fill: none;
+    stroke: #4facfe;
+    stroke-width: 15;
+    stroke-dasharray: 10, 20;
+    opacity: 0.5;
+  }
+</style>
+</head>
+<body>
+  <svg viewBox="0 0 1000 1000" class="logo-container">
+    <defs>
+      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#00f2fe;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#4facfe;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <!-- Pulse/EKG Line -->
+    <path class="pulse-line" d="M 100 500 L 300 500 L 350 300 L 450 700 L 500 500 L 600 500 C 700 500, 800 400, 800 300 C 800 200, 700 100, 600 100 C 500 100, 400 200, 400 300 C 400 400, 500 500, 600 500 Z" />
+    <!-- Pulse Dots -->
+    <circle cx="600" cy="500" r="20" fill="#00f2fe" />
+  </svg>
+</body>
+</html>
