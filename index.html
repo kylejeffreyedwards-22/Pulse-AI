@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pulse AI | Your Daily AI Edge</title>
+    <title>Pulse AI | Maximize Your Rental Revenue</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
@@ -20,17 +20,13 @@
             transform: translateX(-50%);
             width: 80vw;
             height: 50vh;
-            background: radial-gradient(circle, rgba(79, 172, 254, 0.15) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(79, 172, 254, 0.1) 0%, transparent 70%);
             z-index: -1;
         }
-        .sample-preview {
-            background: rgba(255, 255, 255, 0.02);
+        .signup-box {
+            background: rgba(255, 255, 255, 0.03);
             border: 1px solid rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
-        }
-        .signup-box {
-            background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
-            border: 1px solid rgba(255, 255, 255, 0.1);
         }
     </style>
 </head>
@@ -40,86 +36,64 @@
     <nav class="container mx-auto px-6 py-8 flex justify-between items-center">
         <div class="text-2xl font-black tracking-tighter pulse-gradient">PULSE AI</div>
         <div class="space-x-8 hidden md:flex text-sm font-medium text-gray-400">
-            <a href="#preview" class="hover:text-white transition">Sample Edition</a>
+            <a href="#audit" class="hover:text-white transition">Free Audit</a>
             <a href="https://t.me/pulseai_news_daily" class="hover:text-white transition">Telegram</a>
-            <a href="#signup" class="text-white border border-white/20 px-4 py-2 rounded-full hover:bg-white hover:text-black transition">Subscribe</a>
+            <a href="#audit" class="text-white border border-white/20 px-4 py-2 rounded-full hover:bg-white hover:text-black transition">Analyze My Listing</a>
         </div>
     </nav>
 
-    <main class="container mx-auto px-6 pt-20 text-center">
+    <main class="container mx-auto px-6 pt-20 pb-32 text-center">
         <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight">
-            The AI Revolution,<br><span class="pulse-gradient">Distilled Daily.</span>
+            Stop Leaving Money On<br><span class="pulse-gradient">Your VRBO Calendar.</span>
         </h1>
         <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-            While you sleep, we scan thousands of sources to find the absolute high-signal breakthroughs. 3 stories. 5 minutes. Every morning.
+            Most Surfside Beach rentals lose 20% of their annual revenue to bad pricing and weak search ranking. Our AI agents fix your listing, optimize your rates, and fill your calendar.
         </p>
         
-        <div id="signup" class="max-w-md mx-auto signup-box p-8 rounded-3xl mb-20">
-            <form id="beehiiv-form" class="space-y-4">
-                <input type="email" id="email" placeholder="Enter your email" required 
+        <div id="audit" class="max-w-md mx-auto signup-box p-8 rounded-3xl">
+            <h2 class="text-2xl font-bold mb-4">Get a Free AI Listing Audit</h2>
+            <p class="text-gray-500 text-sm mb-6">Enter your VRBO/Airbnb URL below. We'll find your "Revenue Leaks" in under 60 seconds.</p>
+            <form id="audit-form" class="space-y-4">
+                <input type="url" id="url" placeholder="Paste your listing URL" required 
                     class="w-full px-6 py-4 rounded-full bg-white/5 border border-white/10 text-white focus:outline-none focus:border-cyan-500 transition">
                 <button type="submit" id="submit-btn"
                     class="w-full py-4 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full font-bold text-lg hover:opacity-90 transition">
-                    Get Tomorrow's Pulse
+                    Run AI Audit
                 </button>
             </form>
             <p id="response-msg" class="mt-4 text-sm hidden"></p>
         </div>
     </main>
 
-    <section id="preview" class="container mx-auto px-6 py-20">
-        <div class="max-w-3xl mx-auto">
-            <div class="text-center mb-12">
-                <span class="text-cyan-400 font-bold tracking-widest uppercase text-sm">Sample Edition</span>
-                <h2 class="text-3xl font-bold mt-2 text-white">See the Daily Pulse in action.</h2>
+    <section class="container mx-auto px-6 py-20 border-t border-white/10">
+        <div class="grid md:grid-cols-3 gap-12 text-left">
+            <div>
+                <h3 class="text-xl font-bold mb-2">Dynamic AI Pricing</h3>
+                <p class="text-gray-400">Stop set-it-and-forget-it pricing. We use hourly market data to maximize your nightly rate.</p>
             </div>
-            
-            <div class="sample-preview p-10 rounded-3xl border border-white/10 shadow-2xl">
-                <div class="flex justify-between items-center mb-8 border-b border-white/10 pb-4">
-                    <div class="font-black text-xl tracking-tighter">PULSE AI DAILY</div>
-                    <div class="text-gray-500 text-sm">March 2026</div>
-                </div>
-                
-                <div class="space-y-10">
-                    <div>
-                        <span class="bg-cyan-500/10 text-cyan-400 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Top Story</span>
-                        <h3 class="text-2xl font-bold mt-2 mb-3">Sora API is Officially Public</h3>
-                        <p class="text-gray-400 leading-relaxed">OpenAI has finally removed the waitlist for its text-to-video model. Developers can now integrate video generation directly into their apps. The prompt-to-pixel war just entered its final phase.</p>
-                    </div>
-                    
-                    <div>
-                        <span class="bg-purple-500/10 text-purple-400 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">New Model</span>
-                        <h3 class="text-2xl font-bold mt-2 mb-3">DeepSeek-V3 Shakes Up LLM Hierarchy</h3>
-                        <p class="text-gray-400 leading-relaxed">A new open-weights model is matching GPT-4o benchmarks while costing 1/10th to run. We break down how this changes the economics of building AI startups in 2026.</p>
-                    </div>
-                    
-                    <div>
-                        <span class="bg-green-500/10 text-green-400 text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Tool of the Day</span>
-                        <h3 class="text-2xl font-bold mt-2 mb-3">AutoRepo: Automate GitHub Issue Resolution</h3>
-                        <p class="text-gray-400 leading-relaxed">A new agentic tool that automatically writes code to fix bug reports. It's saving senior engineers 15+ hours a week. We have a 20% discount link for members inside.</p>
-                    </div>
-                </div>
-                
-                <div class="mt-12 pt-8 border-t border-white/10 text-center">
-                    <p class="text-gray-500 text-sm italic mb-6">"Level up your AI game in under 5 minutes."</p>
-                    <a href="#signup" class="text-cyan-400 font-bold hover:underline">Subscribe to get tomorrow's edition &rarr;</a>
-                </div>
+            <div>
+                <h3 class="text-xl font-bold mb-2">Listing Optimization</h3>
+                <p class="text-gray-400">Our agents rewrite your title and description to dominate the VRBO search algorithm.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold mb-2">Local Edge</h3>
+                <p class="text-gray-400">Focused on Surfside Beach and the Grand Strand. We know the local demand spikes before they happen.</p>
             </div>
         </div>
     </section>
 
     <footer class="container mx-auto px-6 py-12 border-t border-white/10 text-center text-gray-600 text-xs">
-        &copy; 2026 Pulse AI Meta-Business. All rights reserved. Powered by OpenClaw.
+        &copy; 2026 Pulse AI | Surfside Beach, SC. Powered by OpenClaw.
     </footer>
 
     <script>
-        document.getElementById('beehiiv-form').onsubmit = (e) => {
+        document.getElementById('audit-form').onsubmit = (e) => {
             e.preventDefault();
             const msg = document.getElementById('response-msg');
-            msg.innerText = "Welcome to the Inner Circle! Check your inbox shortly.";
+            msg.innerText = "Analyzing your listing... results will be sent to your email!";
             msg.classList.remove('hidden');
-            msg.classList.add('text-green-400');
-            document.getElementById('email').value = '';
+            msg.classList.add('text-cyan-400');
+            document.getElementById('url').value = '';
         };
     </script>
 </body>
