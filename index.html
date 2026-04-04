@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulse AI | Your Daily AI Edge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #050505; color: white; }
+        .pulse-gradient {
+            background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-glow {
+            position: absolute;
+            top: -10%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80vw;
+            height: 50vh;
+            background: radial-gradient(circle, rgba(79, 172, 254, 0.15) 0%, transparent 70%);
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+    <div class="hero-glow"></div>
+    
+    <nav class="container mx-auto px-6 py-8 flex justify-between items-center">
+        <div class="text-2xl font-black tracking-tighter pulse-gradient">PULSE AI</div>
+        <div class="space-x-8 hidden md:flex text-sm font-medium text-gray-400">
+            <a href="#features" class="hover:text-white transition">Features</a>
+            <a href="https://t.me/pulseai_news_daily" class="hover:text-white transition">Telegram</a>
+            <a href="https://pulse-ai.news" class="text-white border border-white/20 px-4 py-2 rounded-full hover:bg-white hover:text-black transition">Read Latest</a>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-6 pt-20 pb-32 text-center">
+        <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight">
+            The AI Revolution,<br><span class="pulse-gradient">Distilled Daily.</span>
+        </h1>
+        <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+            Stop drowning in AI noise. Our agents scan the globe to bring you the 3 stories that actually matter. Delivered to your inbox and Telegram at 9:00 AM EST.
+        </p>
+        
+        <div class="inline-block p-1 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500">
+            <a href="https://pulse-ai.beehiiv.com/subscribe" class="block px-10 py-4 bg-black rounded-full font-bold text-lg hover:bg-transparent transition duration-300">
+                Join the Inner Circle
+            </a>
+        </div>
+        
+        <p class="mt-6 text-sm text-gray-500">Join 1,000+ AI professionals staying ahead of the curve.</p>
+    </main>
+
+    <section id="features" class="container mx-auto px-6 py-20 border-t border-white/10">
+        <div class="grid md:grid-cols-3 gap-12 text-left">
+            <div>
+                <div class="text-cyan-400 text-2xl mb-4">01</div>
+                <h3 class="text-xl font-bold mb-2">Agent-Powered Curation</h3>
+                <p class="text-gray-400">Our custom sub-agents analyze thousands of data points to find high-signal insights humans miss.</p>
+            </div>
+            <div>
+                <div class="text-cyan-400 text-2xl mb-4">02</div>
+                <h3 class="text-xl font-bold mb-2">Zero Fluff Guarantee</h3>
+                <p class="text-gray-400">We value your time. If it isn't actionable or industry-shifting, it doesn't make the cut.</p>
+            </div>
+            <div>
+                <div class="text-cyan-400 text-2xl mb-4">03</div>
+                <h3 class="text-xl font-bold mb-2">Instant Telegram Alerts</h3>
+                <p class="text-gray-400">Get breakthroughs the moment they happen via our exclusive broadcast channel.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container mx-auto px-6 py-12 border-t border-white/10 text-center text-gray-600 text-xs">
+        &copy; 2026 Pulse AI Meta-Business. All rights reserved. Powered by OpenClaw.
+    </footer>
+</body>
+</html>
