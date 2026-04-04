@@ -9,7 +9,7 @@ These are ready-to-use ads for Instagram, Facebook, and Twitter/X.
 *   **Call to Action:** Get Your Free AI Audit at pulse-ai.news
 
 ## Creative 2: The "Autopilot" (Founder/Investor Focus)
-*   **Visual Idea:** Eddy (represented by a professional logo) overlooking a beach, holding a tablet with a rising profit graph.
+*   **Visual Idea:** A professional avatar (Pulse AI Logo) overlooking a beach, holding a tablet with a rising profit graph.
 *   **Headline:** Your Rental. On Autopilot.
 *   **Body:** We manage the data so you can manage your life. Pulse AI uses quantitative analysis to maximize your nightly rates globally.
 *   **Call to Action:** Join the Elite Owners at pulse-ai.news
