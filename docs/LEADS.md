@@ -9,6 +9,10 @@ Focus: Show them they are losing money on their current portfolio by using stati
 - [ ] **Stay SoJo** | Luxury Portfolio | Need to find manager email
 - [ ] **Miami Vacation Rentals** | 100+ properties | Need to find manager email
 
-## 📍 Scottsdale, AZ (Heavy demand for 'Golf' rentals)
-- [ ] **Holiday Rental** | Luxury focus | Need to find business owner
-- [ ] **Sojourn Properties** | Modern listings | Curation audit needed
+## 📍 California (High-Volume Hubs)
+- [ ] **Palm Springs Real Estate & Management** | High luxury density
+- [ ] **Newport Beach Vacation Properties** | Top-tier booking rates
+
+## 📍 Northeastern US (Seasonal Powerhouses)
+- [ ] **Hamptons Luxury Rentals** | Highest per-night ROI in the country
+- [ ] **Jersey Shore Property Pros** | High turnover, needs AI pricing automation

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Inter', sans-serif; background: #000; color: white; width: 1080px; height: 1080px; margin: 0; display: flex; align-items: center; justify-content: center; }
+  .glow { text-shadow: 0 0 20px rgba(0, 242, 254, 0.5); }
+  .leak-circle { border: 8px solid #ff4b4b; border-radius: 50%; width: 300px; height: 300px; position: absolute; top: 400px; left: 390px; box-shadow: 0 0 40px #ff4b4b; }
+</style>
+</head>
+<body>
+  <div class="relative w-full h-full p-20 flex flex-col justify-between border-[20px] border-white/5">
+    <div>
+      <div class="text-3xl font-black tracking-tighter text-cyan-400 mb-2">PULSE AI</div>
+      <h1 class="text-8xl font-black leading-none uppercase glow">Stop Leaving<br>Money On The Table.</h1>
+    </div>
+
+    <div class="leak-circle"></div>
+    <div class="absolute top-[450px] left-[450px] text-4xl font-bold text-red-500 bg-black/80 px-4 py-2 rounded">LEAK FOUND</div>
+
+    <div class="flex justify-between items-end">
+      <p class="text-3xl text-gray-400 max-w-xl leading-relaxed">
+        Our AI identified <span class="text-white font-bold">$4,200 in missed revenue</span> on this property last month.
+      </p>
+      <div class="bg-white text-black text-3xl font-black px-10 py-6 rounded-full">pulse-ai.news</div>
+    </div>
+  </div>
+</body>
+</html>
