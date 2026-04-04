@@ -1,20 +1,21 @@
-# Pulse: AI & Tech News Engine
+# Pulse AI: Global Business Strategy
 
-## Goal
-Automated curation and distribution of high-value AI and technology news to build an audience and attract sponsors.
+## Mission
+To empower short-term rental owners with institutional-grade AI intelligence to maximize occupancy and nightly revenue.
 
-## Workflow (AI-Managed)
-1. **Curate:** Search for trending AI news, research papers, and product launches daily.
-2. **Synthesize:** Generate a "Top 3 Daily Pulse" summary with actionable insights.
-3. **Distribute:** 
-   - Post to our Telegram channel.
-   - (Future) Send via an email newsletter (e.g., Beehiiv/Substack).
-   - (Future) Cross-post to Twitter/X.
-4. **Grow:** Identify and track key influencers and potential sponsors.
+## Core Operations (Managed by AI Agents)
+1. **Curate:** Scrape VRBO/Airbnb for under-performing listings in high-demand markets (Miami, Scottsdale, Surfside Beach, etc.).
+2. **Analyze:** Generate automated "Revenue Leak" reports for owners.
+3. **Execute:** Manage dynamic pricing and algorithm-optimized descriptions on autopilot.
+4. **Scout:** Monitor local SC real estate markets for Eddy's personal portfolio.
 
-## Revenue Model
-- **Sponsorships:** Weekly featured "Pulse Sponsors" (local or niche AI startups).
-- **Affiliates:** Links to AI tools and services.
+## Tech Stack
+- **Engine:** OpenClaw Multi-Agent Workforce.
+- **Platform:** GitHub Pages + Beehiiv.
+- **Payments:** Stripe.
+- **Branding:** Minimalist Dark Mode Institutional.
 
-## Today's Task: Initial Market Research
-I will now search for the top 5 most trending AI news stories from the last 24 hours to create our first "Daily Pulse" draft.
+## Success Metrics
+- **Audits Delivered:** 0 (Goal: 10/week)
+- **Monthly Revenue:** $0.00 (Goal: $10,000/mo)
+- **Portfolio Properties Found:** 0
