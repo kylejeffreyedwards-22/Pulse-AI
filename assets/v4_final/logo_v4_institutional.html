@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@300;900&display=swap');
+  body { background: #0a0a0a; margin: 0; display: flex; align-items: center; justify-content: center; width: 1200px; height: 1200px; }
+  .logo-container { width: 900px; height: 900px; position: relative; }
+  
+  /* The Prestige Mark */
+  .mark-base {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 2;
+    opacity: 0.1;
+  }
+  .mark-heavy {
+    fill: none;
+    stroke: url(#prestige-grad);
+    stroke-width: 45;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+  }
+  .pulse-core {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 12;
+    stroke-linecap: round;
+    opacity: 0.9;
+  }
+
+  /* Typography */
+  .brand-name {
+    fill: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 72px;
+    font-weight: 300;
+    letter-spacing: 24px;
+    text-transform: uppercase;
+  }
+  .ai-mark {
+    fill: #4facfe;
+    font-weight: 900;
+    letter-spacing: 4px;
+  }
+</style>
+</head>
+<body>
+  <svg viewBox="0 0 1000 1000" class="logo-container">
+    <defs>
+      <linearGradient id="prestige-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#4facfe;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#0045ac;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    
+    <!-- Outer Inscribed Hexagon (Institutional Shield) -->
+    <path class="mark-heavy" d="M 500 150 L 800 325 L 800 675 L 500 850 L 200 675 L 200 325 Z" style="stroke-width: 15; opacity: 0.3;" />
+    
+    <!-- The Monogram 'P' (Abstracted) -->
+    <path class="mark-heavy" d="M 400 700 L 400 300 C 400 200, 650 200, 650 350 C 650 500, 400 500, 400 500" />
+    
+    <!-- The Subtle Intelligence Pulse (The Core) -->
+    <path class="pulse-core" d="M 400 500 L 480 500 L 510 420 L 540 580 L 570 500 L 650 500" />
+    
+    <!-- Wordmark -->
+    <text x="512" y="950" text-anchor="middle" class="brand-name">
+      PULSE <tspan class="ai-mark">AI</tspan>
+    </text>
+  </svg>
+</body>
+</html>
